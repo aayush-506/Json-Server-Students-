@@ -1,0 +1,243 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Aayush Chauhan",
+      "email": "aayush@example.com",
+      "password": "aayush123",
+      "branch": "Computer Science",
+      "semester": 6,
+      "year": "3rd Year",
+      "rollNo": "22CSE1234",
+      "image":"https://i.pinimg.com/736x/4a/9e/05/4a9e0546879447531b4674c63cad8b75.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Priya Sharma",
+      "email": "priya@example.com",
+      "password": "priya123",
+      "branch": "Information Technology",
+      "semester": 5,
+      "year": "3rd Year",
+      "rollNo": "22IT5678",
+      "image":"https://i.pinimg.com/1200x/e2/ac/a9/e2aca90f1227b37857fbf40f93d45d38.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Rahul Verma",
+      "email": "rahul@example.com",
+      "password": "rahul123",
+      "branch": "Electronics and Communication",
+      "semester": 4,
+      "year": "2nd Year",
+      "rollNo": "22ECE9101",
+      "image":"https://i.pinimg.com/736x/82/67/b6/8267b62a89b444138d982efdd4ee1be4.jpg"
+    }
+  ],
+
+"courses": [
+  { 
+    "id": 1, 
+    "studentId": 1, 
+    "type": "core", 
+    "name": "Advanced Algorithms", 
+    "credits": 4,
+    "topics": ["Dynamic Programming", "Graph Algorithms", "Greedy Techniques", "NP-Completeness"]
+  },
+  { 
+    "id": 2, 
+    "studentId": 1, 
+    "type": "core", 
+    "name": "Computer Networks", 
+    "credits": 4,
+    "topics": ["OSI Model", "TCP/IP", "Routing Protocols", "Network Security"]
+  },
+  { 
+    "id": 3, 
+    "studentId": 1, 
+    "type": "practical", 
+    "name": "Cloud Computing Lab", 
+    "credits": 2,
+    "topics": ["AWS EC2 Setup", "Docker Deployment", "Kubernetes Basics"]
+  },
+  { 
+    "id": 4, 
+    "studentId": 1, 
+    "type": "project", 
+    "name": "AI Chatbot Capstone", 
+    "credits": 4,
+    "topics": ["NLP", "Dialogflow", "Intent Recognition", "Deployment"]
+  },
+  { 
+    "id": 5, 
+    "studentId": 1, 
+    "type": "certification", 
+    "name": "AWS Solutions Architect", 
+    "credits": 1,
+    "topics": ["Cloud Architecture", "Load Balancing", "Auto Scaling"]
+  },
+
+  { 
+    "id": 6, 
+    "studentId": 2, 
+    "type": "core", 
+    "name": "Data Mining", 
+    "credits": 4,
+    "topics": ["Clustering", "Classification", "Association Rules", "Data Preprocessing"]
+  },
+  { 
+    "id": 7, 
+    "studentId": 2, 
+    "type": "core", 
+    "name": "Computer Networks", 
+    "credits": 4,
+    "topics": ["DNS", "IP Addressing", "Switching", "Security Protocols"]
+  },
+  { 
+    "id": 8, 
+    "studentId": 2, 
+    "type": "practical", 
+    "name": "Network Security Lab", 
+    "credits": 2,
+    "topics": ["Firewall Setup", "VPNs", "Intrusion Detection", "Wireshark Analysis"]
+  },
+  { 
+    "id": 9, 
+    "studentId": 2, 
+    "type": "project", 
+    "name": "E-commerce Web App", 
+    "credits": 4,
+    "topics": ["Frontend UI", "Backend APIs", "Database Integration", "Payment Gateway"]
+  },
+  { 
+    "id": 10, 
+    "studentId": 2, 
+    "type": "certification", 
+    "name": "Google Cloud Associate", 
+    "credits": 1,
+    "topics": ["Cloud Storage", "Compute Engine", "IAM", "Monitoring"]
+  },
+
+  { 
+    "id": 11, 
+    "studentId": 3, 
+    "type": "core", 
+    "name": "Signal Processing", 
+    "credits": 3,
+    "topics": ["Fourier Transform", "Filters", "Sampling", "Noise Reduction"]
+  },
+  { 
+    "id": 12, 
+    "studentId": 3, 
+    "type": "core", 
+    "name": "Analog Circuits", 
+    "credits": 3,
+    "topics": ["Diodes", "Transistors", "Amplifiers", "Oscillators"]
+  },
+  { 
+    "id": 13, 
+    "studentId": 3, 
+    "type": "practical", 
+    "name": "VLSI Lab", 
+    "credits": 2,
+    "topics": ["Verilog Coding", "FPGA Programming", "Logic Design"]
+  },
+  { 
+    "id": 14, 
+    "studentId": 3, 
+    "type": "project", 
+    "name": "IoT Sensor Network", 
+    "credits": 4,
+    "topics": ["Sensor Integration", "MQTT Protocol", "Cloud Data Storage", "Dashboard Visualization"]
+  },
+  { 
+    "id": 15, 
+    "studentId": 3, 
+    "type": "certification", 
+    "name": "MATLAB Fundamentals", 
+    "credits": 1,
+    "topics": ["MATLAB Basics", "Matrix Operations", "Data Visualization"]
+  }
+],
+
+  "attendance": [
+    { "id": 1, "studentId": 1, "courseName": "Advanced Algorithms", "attended": 26, "total": 30 },
+    { "id": 2, "studentId": 1, "courseName": "Computer Networks", "attended": 18, "total": 25 },
+    { "id": 3, "studentId": 1, "courseName": "Cloud Computing Lab", "attended": 14, "total": 15 },
+
+    { "id": 4, "studentId": 2, "courseName": "Data Mining", "attended": 21, "total": 25 },
+    { "id": 5, "studentId": 2, "courseName": "Computer Networks", "attended": 23, "total": 26 },
+    { "id": 6, "studentId": 2, "courseName": "Network Security Lab", "attended": 18, "total": 20 },
+
+    { "id": 7, "studentId": 3, "courseName": "Signal Processing", "attended": 17, "total": 22 },
+    { "id": 8, "studentId": 3, "courseName": "Analog Circuits", "attended": 20, "total": 24 },
+    { "id": 9, "studentId": 3, "courseName": "IoT Sensor Network", "attended": 15, "total": 18 }
+  ],
+
+  "grades": [
+    { "id": 1, "studentId": 1, "courseName": "Advanced Algorithms", "midterm": 84, "final": 90, "assignments": 86, "grade": "A" },
+    { "id": 2, "studentId": 1, "courseName": "Cloud Computing Lab", "midterm": 79, "final": 85, "assignments": 88, "grade": "B" },
+    { "id": 3, "studentId": 1, "courseName": "AI Chatbot Capstone", "midterm": 92, "final": 94, "assignments": 96, "grade": "A+" },
+    { "id": 4, "studentId": 1, "courseName": "Computer Networks", "midterm": 91, "final": 93, "assignments": 98, "grade": "A+" },
+    { "id": 5, "studentId": 1, "courseName": "Machine Learning", "midterm": 71, "final": 73, "assignments": 90, "grade": "B" },
+
+    { "id": 6, "studentId": 2, "courseName": "Data Mining", "midterm": 76, "final": 83, "assignments": 80, "grade": "A" },
+    { "id": 7, "studentId": 2, "courseName": "Computer Networks", "midterm": 91, "final": 98, "assignments": 85, "grade": "A+" },
+    { "id": 8, "studentId": 2, "courseName": "Network Security Lab", "midterm": 74, "final": 79, "assignments": 77, "grade": "B" },
+
+    { "id": 9, "studentId": 3, "courseName": "Signal Processing", "midterm": 80, "final": 85, "assignments": 90, "grade": "A" },
+    { "id": 10, "studentId": 3, "courseName": "Analog Circuits", "midterm": 72, "final": 80, "assignments": 76, "grade": "B" },
+    { "id": 11, "studentId": 3, "courseName": "IoT Sensor Network", "midterm": 98, "final": 90, "assignments": 90, "grade": "A+" }
+  ],
+
+  "assignments": [
+    
+    { "id": 1, "studentId": 1, "title": "Algorithm Analysis Report", "status": "pending", "dueDate": "15/11/2025", "difficulty": "high" },
+    { "id": 2, "studentId": 1, "title": "Cloud Lab Exercise 5", "status": "pending", "dueDate": "10/11/2025", "difficulty": "medium" },
+    { "id": 3, "studentId": 1, "title": "AI Chatbot Proposal", "status": "pending", "dueDate": "20/11/2025", "difficulty": "high" },
+    { "id": 4, "studentId": 1, "title": "AWS Certification Prep", "status": "pending", "dueDate": "18/11/2025", "difficulty": "low" },
+    { "id": 5, "studentId": 1, "title": "Research Paper Summary", "status": "pending", "dueDate": "25/11/2025", "difficulty": "medium" },
+    { "id": 6, "studentId": 1, "title": "Previous Lab Submission", "status": "overdue", "dueDate": "20/09/2025", "difficulty": "medium" },
+    { "id": 7, "studentId": 1, "title": "Midterm Project Draft", "status": "submitted", "dueDate": "15/10/2025", "submittedDate": "2025-09-28", "difficulty": "high" },
+
+    
+    { "id": 8, "studentId": 2, "title": "Data Mining Case Study", "status": "pending", "dueDate": "12/11/2025", "difficulty": "medium" },
+    { "id": 9, "studentId": 2, "title": "Networks Packet Capture", "status": "pending", "dueDate": "15/11/2025", "difficulty": "low" },
+    { "id": 10, "studentId": 2, "title": "Web App Frontend Design", "status": "pending", "dueDate": "16/11/2025", "difficulty": "high" },
+    { "id": 11, "studentId": 2, "title": "Security Lab Report", "status": "pending", "dueDate": "19/11/2025", "difficulty": "medium" },
+    { "id": 12, "studentId": 2, "title": "Google Cloud Mock Exam", "status": "pending", "dueDate": "22/11/2025", "difficulty": "high" },
+    { "id": 13, "studentId": 2, "title": "Old Network Diagram", "status": "overdue", "dueDate": "18/09/2025", "difficulty": "low" },
+    { "id": 14, "studentId": 2, "title": "E-commerce Prototype", "status": "submitted", "dueDate": "25/09/2025", "submittedDate": "2025-09-24", "difficulty": "high" },
+
+
+    { "id": 15, "studentId": 3, "title": "Signal Processing Quiz", "status": "pending", "dueDate": "11/10/2025", "difficulty": "medium" },
+    { "id": 16, "studentId": 3, "title": "Analog Circuit Diagram", "status": "pending", "dueDate": "13/10/2025", "difficulty": "high" },
+    { "id": 17, "studentId": 3, "title": "VLSI Lab Simulation", "status": "pending", "dueDate": "17/10/2025", "difficulty": "high" },
+    { "id": 18, "studentId": 3, "title": "IoT Sensor Plan", "status": "pending", "dueDate": "20/10/2025", "difficulty": "low" },
+    { "id": 19, "studentId": 3, "title": "MATLAB Practice Problems", "status": "pending", "dueDate": "24/10/2025", "difficulty": "medium" },
+    { "id": 20, "studentId": 3, "title": "Circuit Theory Homework", "status": "overdue", "dueDate": "15/09/2025", "difficulty": "medium" },
+    { "id": 21, "studentId": 3, "title": "Sensor Network Draft", "status": "submitted", "dueDate": "25/09/2025", "submittedDate": "2025-09-25", "difficulty": "high" }
+  ],
+
+"announcements": [
+  { 
+    "id": 1, 
+    "title": "Mid-Sem Exams", 
+    "message": "Mid-semester exams begin on 10 Oct 2025.", 
+    "date": "10 Sep 2025" 
+  },
+  { 
+    "id": 2, 
+    "title": "Library Notice", 
+    "message": "Library will remain open till 10 PM during exam week.", 
+    "date": "08 Sep 2025" 
+  },
+  { 
+    "id": 3, 
+    "title": "Workshop", 
+    "message": "AI & ML workshop on 20 Sept 2025. Register online.", 
+    "date": "20 Aug 2025" 
+  }
+]
+
+}
